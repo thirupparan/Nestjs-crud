@@ -77,6 +77,12 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
   ## nestjs-mongo-docker
 (Nest + mongo) with Docker compose
 
+## if you want to Docker Experience
+```bash
+# git
+$ git checkout Docker-branch
+```
+
 ## Prerequisites
 Node (>= 8.9.0)
 Docker
