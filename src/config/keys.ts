@@ -1,3 +1,3 @@
 export default {
-  mongoURI: 'mongodb://localhost:27017/ItemsDb',
+  mongoURI: 'mongodb://db_mongo:27017/ItemsDb',
 };

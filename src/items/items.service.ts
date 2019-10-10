@@ -4,7 +4,7 @@ import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 
 @Injectable()
-export class ItemsService {
+class ItemsService {
   constructor(@InjectModel('Item') private readonly itemModel: Model<Item>) {}
   //   private readonly items: Item[] = [
   //     {
@@ -49,3 +49,5 @@ export class ItemsService {
     return await this.itemModel.findByIdAndUpdate(id, item, { new: true });
   }
 }
+
+export default ItemsService;
